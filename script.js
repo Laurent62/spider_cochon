@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const website_project = 'https://laurent62.github.io/spider_cochon/';
     const spiderpig = document.getElementById("spiderpig");
-    const spiderpig_gif = 'assets/img/spidercochon.gif';
-    const spiderpig_png = 'assets/img/spidercochon.png';
+    const spiderpig_gif = website_project+'assets/img/spidercochon.gif';
+    const spiderpig_png = website_project+'assets/img/spidercochon.png';
     spiderpig.style.backgroundImage = "url(" + spiderpig_png + ")";
     
     const spiderpig_audio = document.getElementById("spiderpig_audio");
-    const spiderpig_move_src = 'assets/mp3/spidercochon_move.mp3';
-    const spiderpig_stop_src = 'assets/mp3/spidercochon_stop.mp3';
+    const spiderpig_move_src = website_project+'assets/mp3/spidercochon_move.mp3';
+    const spiderpig_stop_src = website_project+'assets/mp3/spidercochon_stop.mp3';
     spiderpig_audio.volume = 0.4;
     
     let spiderpig_isMoving = false;
