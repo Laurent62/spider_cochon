@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87ceeb;
+}
+
+.spiderpig {
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 153px;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+@keyframes pigMove {
+
+    0%,
+    100% {
+        right: 0;
+    }
+
+    100% {
+        right: calc(100% - 250px);
+
+    }
+}
