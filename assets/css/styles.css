@@ -8,16 +8,3 @@
     background-size: cover;
     transform: scaleX(-1);
 }
-
-@keyframes pigMove {
-
-    0%,
-    100% {
-        right: 0;
-    }
-
-    100% {
-        right: calc(100% - 250px);
-
-    }
-}
