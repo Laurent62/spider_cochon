@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e69591;
+}
+
+.ceilling{
+    background-color : #aa7c6d;
+    height :130px;
+}
+
+.molding_border{
+    background-color : #0f0000;
+    height :2px;
+}
+.molding_space,.molding_bigspace{
+    background-color : #ac8283;
+    height :4px;
+}
+.molding_bigspace{
+    height :8px;
+}
+.spiderpig {
+    top: 100px!important;
+}
